@@ -21,7 +21,7 @@ export const Navbar = () => {
           <div className="sm:hidden border border-white border-opacity-30 h-10 w-10 inline-flex items-center justify-center rounded-lg">
             <MenuIcon className="text-white" />
           </div>
-          <nav className="hidden sm:flex text-white flex gap-6 text-opacity-60 items-center ">
+          <nav className="hidden sm:flex text-white  gap-6 text-opacity-60 items-center ">
             <a href="" className="hover:text-white transition">
               About
             </a>
