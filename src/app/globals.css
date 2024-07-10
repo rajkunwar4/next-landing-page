@@ -1,3 +1,38 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.custom-gradient {
+  background: linear-gradient(
+    to right,
+    rgb(252, 214, 255, 0.7),
+    rgb(41, 216, 255, 0.7),
+    rgb(255, 253, 128, 0.7),
+    rgb(248, 154, 191, 0.7),
+    rgb(252, 214, 255, 0.7)
+  );
+}
+.logo-gradient {
+  background: linear-gradient(
+    to right,
+    rgb(252, 214, 255),
+    rgb(41, 216, 255),
+    rgb(255, 253, 128),
+    rgb(248, 154, 191),
+    rgb(252, 214, 255)
+  );
+}
+
+.home-gradient {
+  background: linear-gradient(
+    to bottom,
+    rgb(0, 0, 0),
+    rgb(32, 13, 66),
+    rgb(79, 33, 161),
+    rgb(164, 110, 219)
+  ); 
+}
+
+.custom-radial-bg {
+  background-image: radial-gradient(closest-side, #000 82%, #9560EB);
+}

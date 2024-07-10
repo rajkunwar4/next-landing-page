@@ -15,5 +15,10 @@ const config: Config = {
     },
   },
   plugins: [],
+  safelist: [
+    {
+      pattern: /bg-.*/,
+    },
+  ],
 };
 export default config;
