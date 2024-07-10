@@ -1,4 +1,4 @@
-"using client";
+
 import acmeLogo from "../assets/images/acme.png";
 import quantumLogo from "../assets/images/quantum.png";
 import echoLogo from "../assets/images/echo.png";
@@ -28,12 +28,12 @@ export const LogoTicker = () => {
           before:bg-[linear-gradient(to_right,#000,rgb(0,0,0,0))]  after:bg-[linear-gradient(to_left,#000,rgb(0,0,0,0))]  "
         >
           <div className="flex gap-16">
-            {images.map(({ src, alt }, index) => (
+            {images.map(({ src, alt }) => (
               <Image
                 src={src}
                 alt={alt}
                 className="flex-none h-8 w-auto"
-                key={index}
+                key={alt}
               />
             ))}
           </div>
