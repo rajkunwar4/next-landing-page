@@ -7,8 +7,9 @@ export const CallToAction = () => {
   return (
     <div className="bg-black text-white  py-[72px] sm:py-[96px]">
       <div className="container max-w-xl mx-auto relative ">
-        <Image src={helixImage} alt="helix"  className="absolute top-6 left-[calc(100%+36px)]  "/>
-        <Image src={emojiStar} alt="emoji"  className="absolute -top-[120px] right-[calc(100%+24px)]"/>
+      
+        <Image src={helixImage} alt="helix"  className="hidden sm:inline absolute top-6 left-[calc(100%+36px)]  "/>
+        <Image src={emojiStar} alt="emoji"  className="hidden sm:inline absolute -top-[120px] right-[calc(100%+24px)]"/>
         <h2 className="text-5xl sm:text-6xl font-bold tracking-tighter text-center ">
           Get instant access
         </h2>
